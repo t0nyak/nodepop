@@ -5,6 +5,16 @@
 
 Api for the iOS/Android apps.
 
+## URL
+
+### URL to visit the running application
+
+    http://ec2-54-83-86-45.compute-1.amazonaws.com/
+    
+### IP to visit the HTML module website
+
+    http://54.83.86.45/
+
 ## Deploy
 
 ### Install dependencies
