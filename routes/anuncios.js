@@ -8,7 +8,7 @@ const Anuncio = require('mongoose').model('Anuncio');
 router.get('/', async function (req, res, next) {
   try {
     const start = parseInt(req.query.start) || 0;
-    const limit = parseInt(req.query.limit) || 1000; // nuestro api devuelve max 1000 registros
+    const limit = parseInt(req.query.limit) || 500; // nuestro api devuelve max 1000 registros
     const sort = req.query.sort || '_id';
     const includeTotal = true;
 
